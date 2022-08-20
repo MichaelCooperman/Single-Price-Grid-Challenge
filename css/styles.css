@@ -1,0 +1,135 @@
+body {
+  background-color: #e5eff5;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+}
+
+h1 {
+  color: #2ab2af;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+h2 {
+  color: #c0df34;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+h3 {
+  color: white;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+p {
+  color: white;
+  font-size: .9rem;
+  margin: 5px 40px;
+}
+
+span {
+  display: flex;
+  color: white;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 2rem;
+}
+
+.whole-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin-top: 225px;
+}
+
+.top-box {
+  justify-content: flex-start;
+  background-color: white;
+  width: 800px;
+  height: 250px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.tp {
+  color: #98a6bd;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  max-height: 250px;
+}
+
+.left-box {
+  display: block;
+  background-color: #2ab2af;
+  width: 400px;
+  height: 250px;
+  border-bottom-left-radius: 10px;
+}
+
+.month {
+  display: flex;
+  align-content: center;
+  color: #98a6bd;
+  font-size: 1.1rem;
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+.desc {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  border-radius: 7px;
+  background-color: #c0df34;
+  color: white;
+  border: none;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.5rem;
+  height: 50px;
+  width: 300px;
+  margin: 25px 40px 50px;
+}
+
+.button:hover {
+  background-color: #a3ba0f;
+  color: white;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 1.45rem;
+}
+
+.right-box {
+  display: block;
+  background-color: #2ab2af;
+  width: 400px;
+  height: 250px;
+  border-bottom-right-radius: 10px;
+}
+
+.attribution {
+  position: absolute;
+}
